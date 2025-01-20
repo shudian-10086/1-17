@@ -1,0 +1,272 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light background */
+    color: #333;
+}
+
+header {
+    background-color: #6b5b95;  /* Purple header background */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+header button {
+    background-color: white;
+    color: #6b5b95;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.container{max-width: 1200px;margin: 0 auto;}
+section {
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.reimagined p{
+    text-align: center;
+    color: #555;
+}
+.features {
+    background-color: #f0f0f0;
+}
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.experience {
+    text-align: center;
+}
+.experience p{
+   color: #555;
+    margin-bottom: 20px;
+}
+.placeholder {
+    background-color: #e0e0e0;
+    height: auto;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.how-to-play {
+    background-color: #f0f0f0;
+
+}
+.how-to-play p{
+    text-align: center;
+    color: #555;
+}
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.step {
+    text-align: center;
+}
+
+.step-number {
+    display: inline-block;
+    background-color: #6b5b95;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.testimonials {
+    background-color: white;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.testimonial-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.testimonial-card p:last-child {
+   font-style: italic;
+    color: #777;
+    margin-top: 10px;
+}
+
+
+.faq {
+    background-color: #f0f0f0;
+}
+.faq-items {
+    padding: 20px;
+}
+.faq-item {
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+.faq-question p{
+    margin: 0;
+}
+.toggle-icon{
+    font-size: 1.5em;
+    transition: transform 0.3s ease;
+}
+.faq-question.active .toggle-icon {
+  transform: rotate(45deg);
+}
+.faq-answer {
+    padding: 15px;
+    display: none;
+    background-color: #f5f5f5;
+}
+
+.faq-answer p{
+    margin: 0;
+    color: #555;
+}
+
+.latest-updates {
+    background-color: white;
+}
+.update-grid {
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.update-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.latest-updates h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.call-to-action {
+    background-color: #6b5b95;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.call-to-action p{
+ margin-bottom: 20px;
+}
+.call-to-action button {
+     background-color: white;
+    color: #6b5b95;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+   background-color: #1e1e1e;
+   color: #ddd;
+   padding: 30px 20px;
+   text-align: center;
+}
+
+.footer-content {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+}
+
+.footer-content h4{
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: left;
+}
+
+.footer-content ul{
+    padding: 0;
+    list-style: none;
+    text-align: left;
+
+}
+
+.footer-content li{
+    margin-bottom: 5px;
+
+}
+
+.footer-content a{
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-content a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+    .footer-content > div {
+    margin-bottom: 20px;
+  }
+}

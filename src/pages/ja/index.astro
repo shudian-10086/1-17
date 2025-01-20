@@ -1,12 +1,16 @@
 ---
-
+import "../../styles/main.css";
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprunki Remastered</title>
+    <title>Fiddlebops - ダウンロード不要の無料のオンラインゲーム</title>
+	<meta name="description" content="Fiddlebops - 無限の創造性を持つ音楽ゲーム！簡単にあなた独自の音楽制作を始めましょう。様々な音楽要素を探索し、ユニークなゲームプレイを解除し、数百万のプレイヤーと音楽の饗宴を共有しましょう。今すぐ Fiddlebops の旅を始めましょう！">
+    <link rel="preload" href="https://silkycell.github.io/FiddleBops/" as="document">
+    <link rel="dns-prefetch" href="https://silkycell.github.io">
+    <link rel="preconnect" href="https://silkycell.github.io" crossorigin>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const faqItems = document.querySelectorAll('.faq-item');
@@ -30,281 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-<style>
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f9f9f9; /* Light background */
-    color: #333;
-}
-
-header {
-    background-color: #6b5b95;  /* Purple header background */
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-}
-
-header h1 {
-    margin-bottom: 10px;
-}
-
-header p {
-    margin-bottom: 20px;
-}
-
-header button {
-    background-color: white;
-    color: #6b5b95;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 5px;
-}
-
-section {
-    padding: 40px 20px;
-    /*max-width: 1200px;*/
-    margin: 0 auto;
-}
-
-section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.reimagined p{
-    text-align: center;
-    color: #555;
-}
-.features {
-    background-color: #f0f0f0;
-}
-.feature-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.feature-card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.feature-card h3 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.experience {
-    text-align: center;
-}
-.experience p{
-   color: #555;
-    margin-bottom: 20px;
-}
-.placeholder {
-    background-color: #e0e0e0;
-    height: auto;
-    width: 80%;
-    margin: 20px auto;
-}
-
-.how-to-play {
-    background-color: #f0f0f0;
-
-}
-.how-to-play p{
-    text-align: center;
-    color: #555;
-}
-.steps {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-    padding: 20px;
-}
-
-.step {
-    text-align: center;
-}
-
-.step-number {
-    display: inline-block;
-    background-color: #6b5b95;
-    color: white;
-    border-radius: 50%;
-    padding: 5px 15px;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-}
-
-.testimonials {
-    background-color: white;
-}
-
-.testimonial-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.testimonial-card {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-.testimonial-card p:last-child {
-   font-style: italic;
-    color: #777;
-    margin-top: 10px;
-}
-
-
-.faq {
-    background-color: #f0f0f0;
-}
-.faq-items {
-    padding: 20px;
-}
-.faq-item {
-    margin-bottom: 10px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-
-.faq-question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    cursor: pointer;
-    background-color: #f0f0f0;
-}
-.faq-question p{
-    margin: 0;
-}
-.toggle-icon{
-    font-size: 1.5em;
-    transition: transform 0.3s ease;
-}
-.faq-question.active .toggle-icon {
-  transform: rotate(45deg);
-}
-.faq-answer {
-    padding: 15px;
-    display: none;
-    background-color: #f5f5f5;
-}
-
-.faq-answer p{
-    margin: 0;
-    color: #555;
-}
-
-.latest-updates {
-    background-color: white;
-}
-.update-grid {
-    display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.update-card {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.latest-updates h2 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.call-to-action {
-    background-color: #6b5b95;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-}
-.call-to-action p{
- margin-bottom: 20px;
-}
-.call-to-action button {
-     background-color: white;
-    color: #6b5b95;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 5px;
-}
-
-footer {
-   background-color: #1e1e1e;
-   color: #ddd;
-   padding: 30px 20px;
-   text-align: center;
-}
-
-.footer-content {
-   display: flex;
-   justify-content: space-around;
-   flex-wrap: wrap;
-   margin-bottom: 20px;
-}
-
-.footer-content h4{
-  margin-bottom: 10px;
-  color: #fff;
-  text-align: left;
-}
-
-.footer-content ul{
-    padding: 0;
-    list-style: none;
-    text-align: left;
-
-}
-
-.footer-content li{
-    margin-bottom: 5px;
-
-}
-
-.footer-content a{
-    color: #ddd;
-    text-decoration: none;
-}
-
-.footer-content a:hover{
-    text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;
-  }
-    .footer-content > div {
-    margin-bottom: 20px;
-  }
-}
-</style>
 <script>
 	function goToLink(event: Event) {
 	  const select = event.target as HTMLSelectElement;
@@ -345,6 +74,7 @@ footer {
 </head>
 <body>
     <header>
+    <div class="container">
 		<select style="float:right;">
 			<option value="">Language</option>
 			<option data-url="/">English</option>
@@ -355,63 +85,42 @@ footer {
 			<option data-url="/ja">日本語</option>
 			<option data-url="/ko">한국어</option>
 		  </select>
-        <h1>Play Sprunki Remastered Free Online日语</h1>
-        <p>Embark on an extraordinary musical journey with enhanced graphics,
-            immersive gameplay mechanics, and dynamic character animations.
-            Create, play, and experience music like never before.</p>
-            <button>Play Sprunki Remastered</button>
+        <h1>Fiddlebopsをオンラインで無料で楽しむ</h1>
+        <p>もう迷わず、Fiddlebops に参加して、あなただけの音楽の旅を始め、創意ある音符で自分だけの楽章を書き上げましょう。</p>
+            <button><a href="#f_games">ゲームを始める</a></button>
+    </div>
     </header>
 
-    <section class="reimagined">
-        <h2>Sprunki Remastered Reimagined for Modern Players</h2>
-        <p>Sprunki Remastered represents a complete overhaul of the beloved
-            original game, bringing stunning visual improvements and refined
-            gameplay mechanics to a new generation of players. Built upon the
-            foundation of the popular Incredibox music creation platform, this
-            remastered version delivers an unparalleled interactive musical
-            experience.
-            Whether you're a returning fan or new to the world of Sprunki, you'll
-            discover a captivating blend of music creation, puzzle-solving, and
-            adventure that pushes the boundaries of what's possible in browser-
-            based gaming.</p>
+    <section class="reimagined"><div class="container">
+        <h2>Fiddlebops - Incrediboxのファンが作った音楽クリエイションゲーム</h2>
+        <p>FiddlebopsはIncrediboxをベースに作成され、そのコアのプレイフレームワークを維持しています。つまり、異なる音楽要素（例：歌声、楽器の音など）を個性的なキャラクターに割り当てることで、個性的な音楽を作り出すことができます。しかし、Fiddlebopsにはファンの独自のクリエイティブとデザインが取り入れられており、音楽素材、キャラクター設定、インターフェーススタイルなどの面で、オリジナルのIncrediboxとは異なる特徴を示す可能性があり、プレイヤーには別の音楽クリエイション体験をもたらします。</p></div>
     </section>
 
-    <section class="features">
-        <h2>Sprunki Remastered Features</h2>
+    <section class="features"><div class="container">
+        <h2>Fiddlebops ゲーム攻略</h2>
         <div class="feature-grid">
             <div class="feature-card">
-                <h3>Enhanced Graphics</h3>
-                <p>Experience the world of Sprunki like never before with completely redesigned
-                    characters, stunning animations, and dynamic expressions that respond to
-                    your every interaction. Our enhanced visual engine brings unprecedented detail
-                    and life to every scene.</p>
+                <h3>キャラクターと音の組み合わせを熟知する</h3>
+                <p>各キャラクターに対応するユニークな音楽スタイルと音の特徴を深く理解し、クリエイションの前に各キャラクターの音を聴き、その後、異なるキャラクターの音の様々な組み合わせを積極的に試し、その融合効果を観察し、後のクリエイションの基礎を築きます。</p>
             </div>
             <div class="feature-card">
-                <h3>Interactive Gameplay</h3>
-                 <p>Create unique musical compositions by interacting with a diverse cast of
-                    characters, each contributing their own distinct sounds and styles
-                    to your mix. The refined gameplay mechanics offer unprecedented control over
-                    your musical creation.</p>
+                <h3>音楽クリエイションのテクニックをマスターする</h3>
+                 <p>クリエイションの前にテーマとスタイルを明確にし、堅固なリズムフレームワークを構築し、音符を調整することでリズムの変化を豊かにします。メロディの流れを適切に配置し、簡単な音階から始めてユニークなメロディを構築し、メロディの起伏に注意を払います。効果音と特殊効果を巧みに活用し、音楽に層感と雰囲気を加えます。</p>
             </div>
             <div class="feature-card">
-                <h3>Multiple Game Modes</h3>
-                 <p>Switch between standard and nightmare modes to experience different sides
-                    of Sprunki. The nightmare mode introduces darker themes and challenging
-                    variations of familiar characters, perfect for players seeking an extra
-                    thrill.</p>
+                <h3>ゲーム特有の機能を巧みに利用する</h3>
+                 <p>クリエイションに行き詰まったときは、ゲームのランダム機能を利用してインスピレーションを得ることができます。この機能は音符、リズム、または音の組み合わせをランダムに生成します。クリエイションが完了したら、作品をすぐに保存し、後での改善に便利にします。同時に、コミュニティに共有し、他のプレイヤーと交流し、アドバイスを受け取り、クリエイションレベルを向上させます。</p>
             </div>
             <div class="feature-card">
-                 <h3>Dynamic Environments</h3>
-                 <p>Explore vibrant, procedurally generated worlds that evolve with your
-                    music. Every playthrough offers a unique combination of visual and auditory
-                    elements, ensuring endless replayability.</p>
+                 <h3>練習と創造を続ける</h3>
+                 <p>他のプレイヤーの優れた作品をたくさん鑑賞し、クリエイションのアイデアとテクニックを吸収し、様々な音楽を広く聴き、自身の音楽感覚と審美眼を高めます。常識を破り、新しい音の組み合わせ、リズム型、メロディの流れを試し、絶えず新しいことを探し、ユニークな音楽作品を作り出します。</p>
             </div>
-        </div>
+        </div></div>
     </section>
 
-    <section class="experience">
-        <h2>Experience Sprunki Remastered</h2>
-        <p>Jump right into the adventure and start creating your own musical masterpiece</p>
+    <section class="experience" id="f_games"><div class="container">
+        <h2>Fiddlebopsを体験する</h2>
+        <p>すぐにクリエイションに取り組み、あなた自身の音楽傑作を披露しましょう。</p>
         <div class="placeholder">
 			<iframe 
 			src="https://silkycell.github.io/FiddleBops/" 
@@ -419,218 +128,133 @@ footer {
 			height="500px" 
 			loading="lazy" 
 			fetchpriority="high">
-		  </iframe></div> <!-- Placeholder for video/image -->
+		  </iframe></div> <!-- Placeholder for video/image --></div>
     </section>
 
-    <section class="how-to-play">
-        <h2>How to Play Sprunki Remastered</h2>
-        <p>Master the art of musical creation in three simple steps</p>
+    <section class="how-to-play"><div class="container">
+        <h2>Fiddlebopsの遊び方</h2>
+        <p>簡単な3ステップで、ユニークな音楽を作る方法をマスターできます。</p>
         <div class="steps">
             <div class="step">
                 <span class="step-number">1</span>
-                <h3>Choose Your Characters</h3>
-                <p>Select from a diverse roster of musical characters, each with their unique sounds
-                    and abilities. Mix and match to create your perfect ensemble.</p>
+                <h3>曲を選び、操作方法を熟知する</h3>
+                <p>ゲームが提供するジャズスタイルを中心とした楽曲ライブラリから曲を1つ選んでゲームを始めます。ゲーム開始前には通常、基本的な操作方法を紹介する簡単なチュートリアルがあります。例えば、クリック、スワイプ、長押しなどのアクションで音楽のリズムに合わせる方法などです。</p>
             </div>
             <div class="step">
                 <span class="step-number">2</span>
-                <h3>Create Your Beat</h3>
-                <p>Drag and drop sound icons onto your characters to build layered compositions.
-                    Experiment with different combinations to discover new musical possibilities.</p>
+                <h3>音楽を作る</h3>
+                <p>ロックされている楽器と効果音を使用し、ドラッグや組み合わせなどの方法で、既存の曲を再混合したり、全く新しい音楽作品を作ったりします。創造力を発揮し、独自の音楽スタイルを作り出しましょう。</p>
             </div>
             <div class="step">
                 <span class="step-number">3</span>
-                <h3>Share Your Music</h3>
-                <p>Save your creations and share them with the global Sprunki community. Listen to
-                    other players' compositions and gain inspiration for your next masterpiece.</p>
+                <h3>共有とチャレンジ</h3>
+                <p>一部のバージョンでは、作成した音楽作品を他のプレイヤーと共有することができます。または、ゲーム内の様々なチャレンジやコンテストに参加し、他のプレイヤーと技術を競い合い、ランキング表で勝負しましょう。</p>
             </div>
-        </div>
+        </div></div>
     </section>
 
-    <section class="testimonials">
-        <h2>Sprunki Remastered Player Testimonials</h2>
+    <section class="testimonials"><div class="container">
+        <h2>Fiddlebopsのプレイヤー評価</h2>
          <div class="testimonial-grid">
         <div class="testimonial-card">
-            <p>"Sprunki Remastered takes everything
-            I loved about the original and amplifies
-            it tenfold. The new graphics and
-            gameplay mechanics are simply
-            stunning."</p>
-            <p>- Alex M., Music Producer</p>
+            <p>「音楽体験が素晴らしい：音符とリズムのデザインが密接に結びついており、プレイヤーはゲーム中に音楽の魅力を十分に感じることができ、まるでジャズ音楽の宴に身を置いているかのようです。」</p>
+            <p>- トム・G., 音楽プロデューサー</p>
         </div>
         <div class="testimonial-card">
-            <p>"I've spent hours creating different
-            musical combinations and discovering
-            new sounds. This remaster is
-            absolutely addictive!"</p>
-            <p>- Sarah K., Game Developer</p>
+            <p>「ゲームの操作方法は比較的簡単で、音楽ゲームの経験がない初心者でも、短時間でゲームの操作を熟知し、すぐにゲームに没頭して楽しむことができます！」</p>
+            <p>- ヘイ・K., ゲームデベロッパー</p>
         </div>
          <div class="testimonial-card">
-            <p>"The nightmare mode adds a whole
-            new dimension to the game. It's like
-            getting two games in one. Absolutely
-            worth every minute spent playing."</p>
-             <p>- Michael R., Music Teacher</p>
+            <p>「ゲームには豊富な楽器、リズム型、効果音が用意されており、プレイヤーはそれらをロック解除して使用することができます。プレイヤーは自身の創造力を発揮し、ドラッグや組み合わせなどの方法で全く新しい音楽作品を作ることができます。」</p>
+             <p>- トニー・K., 音楽教師</p>
         </div>
-        </div>
+        </div></div>
     </section>
 
-    <section class="faq">
-        <h2>Sprunki Remastered FAQs</h2>
-         <div class="faq-items">
+    <section class="faq"><div class="container">
+        <h2>Fiddlebopsのよくある質問と解答</h2>
+        <div class="faq-items">
         <div class="faq-item">
             <div class="faq-question">
-                <p>What makes Sprunki Remastered different from the original?</p>
+                <p>FiddlebopsとIncrediboxの違いは何ですか？</p>
                 <span class="toggle-icon">+</span>
             </div>
             <div class="faq-answer">
-               <p>The Sprunki Remastered provides enhanced graphics and interactive gameplay.</p>
+               <p>Fiddlebopsは、音楽素材、キャラクター設定、インターフェーススタイルなどの面でIncrediboxと異なる場合があります。</p>
             </div>
         </div>
 
-         <div class="faq-item">
+        <div class="faq-item">
             <div class="faq-question">
-                <p>Do I need any musical experience to play?</p>
+                <p>演奏するためには音楽の経験が必要ですか？</p>
                 <span class="toggle-icon">+</span>
             </div>
             <div class="faq-answer">
-                <p>No musical experience needed to play this game.</p>
+                <p>このゲームをプレイするには、音楽の経験は必要ありません。</p>
             </div>
         </div>
 
         <div class="faq-item">
             <div class="faq-question">
-                <p>Can I save and share my creations?</p>
-                 <span class="toggle-icon">+</span>
+                <p>私の作品を保存して共有できますか？</p>
+                <span class="toggle-icon">+</span>
             </div>
             <div class="faq-answer">
-                <p>Yes, you can save and share your music creations.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-             <div class="faq-question">
-                <p>What are the system requirements?</p>
-                <span class="toggle-icon">+</span>
-             </div>
-             <div class="faq-answer">
-                <p>The game can run on most modern browsers.</p>
+                <p>はい、あなたはあなたの音楽作品を保存して共有できます。</p>
             </div>
         </div>
 
         <div class="faq-item">
             <div class="faq-question">
-               <p>Is there a tutorial for new players?</p>
+                <p>システム要件は何ですか？</p>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>このゲームは、ほとんどの最新のブラウザで動作します。</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+               <p>新規プレイヤー向けのチュートリアルはありますか？</p>
                <span class="toggle-icon">+</span>
-             </div>
-            <div class="faq-answer">
-                <p>Yes, there is a tutorial for new players.</p>
-             </div>
-        </div>
-         <div class="faq-item">
-            <div class="faq-question">
-               <p>How often does the game receive updates?</p>
-                <span class="toggle-icon">+</span>
-             </div>
-             <div class="faq-answer">
-                 <p>The game receives regular updates.</p>
-             </div>
-        </div>
-
-        <div class="faq-item">
-            <div class="faq-question">
-              <p>What is the Nightmare Mode and how do I unlock it?</p>
-              <span class="toggle-icon">+</span>
-            </div>
-             <div class="faq-answer">
-                <p>The nightmare mode is a more challenging mode.</p>
-            </div>
-        </div>
-          <div class="faq-item">
-            <div class="faq-question">
-                <p>Are there any in-game purchases or subscriptions?</p>
-                <span class="toggle-icon">+</span>
             </div>
             <div class="faq-answer">
-                 <p>There are no in-game purchases or subscription.</p>
+                <p>はい、新規プレイヤー向けのチュートリアルがあります。</p>
             </div>
         </div>
 
-         <div class="faq-item">
-            <div class="faq-question">
-                <p>Can I play Sprunki Remastered offline?</p>
-                 <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                 <p>The game can be played offline.</p>
-             </div>
-         </div>
-         <div class="faq-item">
-            <div class="faq-question">
-              <p>Is there a way to collaborate with other players?</p>
-              <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>There is no way to collaborate with other players.</p>
-            </div>
-        </div>
-    </div>
+    </div></div>
     </section>
 
-    <section class="latest-updates">
-        <h2>Sprunki Remastered Latest Updates</h2>
-            <div class="update-grid">
-        <div class="update-card">
-            <h3>October 25, 2024</h3>
-            <h4>New Character Pack Released</h4>
-             <p>Introducing five new musical characters with unique sound profiles and
-                animations. Explore new musical possibilities with our latest additions to
-                the Sprunki universe.</p>
-        </div>
-          <div class="update-card">
-            <h3>October 15, 2024</h3>
-            <h4>Enhanced Performance Update</h4>
-             <p>Major optimization improvements for smoother gameplay and faster loading
-                times. Experience Sprunki Remastered with better performance than ever before.</p>
-        </div>
-          <div class="update-card">
-             <h3>October 1, 2024</h3>
-             <h4>Nightmare Mode Expansion</h4>
-              <p>The nightmare mode gets even more intense with new challenges, spooky
-                characters, and eerie sound effects. Are you brave enough to face the darkness?</p>
-        </div>
-        </div>
+    <section class="call-to-action"><div class="container">
+        <h2>Fiddlebopsの音楽傑作を作る準備はできていますか？</h2>
+        <p>世界中の数百万のプレイヤーと一緒に究極の音楽創作の旅に出かけましょう。すぐにFiddlebopsの旅を始めましょう！</p>
+        <button><a href="#f_games">すぐにFiddlebopsをプレイする</a></button></div>
     </section>
 
-    <section class="call-to-action">
-        <h2>Ready to Create Your Sprunki Remastered Musical Masterpiece?</h2>
-        <p>Join millions of players worldwide in the ultimate musical adventure. Start your journey with Sprunki Remastered today!</p>
-        <button>Play Sprunki Remastered Now</button>
-    </section>
-
-    <footer>
+    <footer><div class="container">
         <div class="footer-content">
             <div class="about-links">
-                 <h4>About</h4>
+                 <h4>About（関連情報）</h4>
                   <ul>
-                   <li><a href="#">SprunkireMastered.org</a></li>
-                   <li><a href="#">Sprunkire Mastered</a></li>
-                   <li><a href="#">Sprunkire Mastered Online</a></li>
-                   <li><a href="#">Sprunkire Mastered Game</a></li>
+                   <li><a href="#">Fiddlebops.org</a></li>
+                   <li><a href="#">Fiddlebopsゲーム</a></li>
+                   <li><a href="#">Fiddlebopsオンラインゲーム</a></li>
+                   <li><a href="#">Fiddlebopsゲーム攻略</a></li>
                  </ul>
             </div>
             <div class="legal-links">
-                <h4>Legal</h4>
+                <h4>Legal（法的事項）</h4>
                   <ul>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Cookie Policy</a></li>
-                   <li><a href="#">GDPR Compliance</a></li>
+                    <li><a href="#">利用規約</a></li>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                    <li><a href="#">クッキーポリシー</a></li>
+                   <li><a href="#">GDPRコンプライアンス</a></li>
                  </ul>
             </div>
         </div>
-       <p>© 2024 Sprunki Remastered. All rights reserved.</p>
+       <p>© 2025 Fiddlebops. 全著作権所有。</p></div>
     </footer>
-
 </body>
 </html>

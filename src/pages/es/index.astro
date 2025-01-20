@@ -1,12 +1,16 @@
 ---
-
+import "../../styles/main.css";
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprunki Remastered</title>
+    <title>Fiddlebops - Juegos en línea gratis sin descargar</title>
+	<meta name="description" content="Fiddlebops - Un juego musical de creatividad infinita! Inicie fácilmente su creación musical exclusiva. Explore varios elementos musicales, desbloquee un juego único y comparta la fiesta musical con millones de jugadores. ¡Comience su viaje de Fiddlebops ahora!">
+    <link rel="preload" href="https://silkycell.github.io/FiddleBops/" as="document">
+    <link rel="dns-prefetch" href="https://silkycell.github.io">
+    <link rel="preconnect" href="https://silkycell.github.io" crossorigin>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const faqItems = document.querySelectorAll('.faq-item');
@@ -30,281 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-<style>
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f9f9f9; /* Light background */
-    color: #333;
-}
-
-header {
-    background-color: #6b5b95;  /* Purple header background */
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-}
-
-header h1 {
-    margin-bottom: 10px;
-}
-
-header p {
-    margin-bottom: 20px;
-}
-
-header button {
-    background-color: white;
-    color: #6b5b95;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 5px;
-}
-
-section {
-    padding: 40px 20px;
-    /*max-width: 1200px;*/
-    margin: 0 auto;
-}
-
-section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.reimagined p{
-    text-align: center;
-    color: #555;
-}
-.features {
-    background-color: #f0f0f0;
-}
-.feature-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.feature-card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.feature-card h3 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.experience {
-    text-align: center;
-}
-.experience p{
-   color: #555;
-    margin-bottom: 20px;
-}
-.placeholder {
-    background-color: #e0e0e0;
-    height: auto;
-    width: 80%;
-    margin: 20px auto;
-}
-
-.how-to-play {
-    background-color: #f0f0f0;
-
-}
-.how-to-play p{
-    text-align: center;
-    color: #555;
-}
-.steps {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-    padding: 20px;
-}
-
-.step {
-    text-align: center;
-}
-
-.step-number {
-    display: inline-block;
-    background-color: #6b5b95;
-    color: white;
-    border-radius: 50%;
-    padding: 5px 15px;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-}
-
-.testimonials {
-    background-color: white;
-}
-
-.testimonial-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.testimonial-card {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-.testimonial-card p:last-child {
-   font-style: italic;
-    color: #777;
-    margin-top: 10px;
-}
-
-
-.faq {
-    background-color: #f0f0f0;
-}
-.faq-items {
-    padding: 20px;
-}
-.faq-item {
-    margin-bottom: 10px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-
-.faq-question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    cursor: pointer;
-    background-color: #f0f0f0;
-}
-.faq-question p{
-    margin: 0;
-}
-.toggle-icon{
-    font-size: 1.5em;
-    transition: transform 0.3s ease;
-}
-.faq-question.active .toggle-icon {
-  transform: rotate(45deg);
-}
-.faq-answer {
-    padding: 15px;
-    display: none;
-    background-color: #f5f5f5;
-}
-
-.faq-answer p{
-    margin: 0;
-    color: #555;
-}
-
-.latest-updates {
-    background-color: white;
-}
-.update-grid {
-    display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.update-card {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.latest-updates h2 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.call-to-action {
-    background-color: #6b5b95;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-}
-.call-to-action p{
- margin-bottom: 20px;
-}
-.call-to-action button {
-     background-color: white;
-    color: #6b5b95;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 5px;
-}
-
-footer {
-   background-color: #1e1e1e;
-   color: #ddd;
-   padding: 30px 20px;
-   text-align: center;
-}
-
-.footer-content {
-   display: flex;
-   justify-content: space-around;
-   flex-wrap: wrap;
-   margin-bottom: 20px;
-}
-
-.footer-content h4{
-  margin-bottom: 10px;
-  color: #fff;
-  text-align: left;
-}
-
-.footer-content ul{
-    padding: 0;
-    list-style: none;
-    text-align: left;
-
-}
-
-.footer-content li{
-    margin-bottom: 5px;
-
-}
-
-.footer-content a{
-    color: #ddd;
-    text-decoration: none;
-}
-
-.footer-content a:hover{
-    text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;
-  }
-    .footer-content > div {
-    margin-bottom: 20px;
-  }
-}
-</style>
 <script>
 	function goToLink(event: Event) {
 	  const select = event.target as HTMLSelectElement;
@@ -345,6 +74,7 @@ footer {
 </head>
 <body>
     <header>
+    <div class="container">
 		<select style="float:right;">
 			<option value="">Language</option>
 			<option data-url="/">English</option>
@@ -355,282 +85,178 @@ footer {
 			<option data-url="/ja">日本語</option>
 			<option data-url="/ko">한국어</option>
 		  </select>
-        <h1>Play Sprunki Remastered Free Online西班牙语</h1>
-        <p>Embark on an extraordinary musical journey with enhanced graphics,
-            immersive gameplay mechanics, and dynamic character animations.
-            Create, play, and experience music like never before.</p>
-            <button>Play Sprunki Remastered</button>
-    </header>
 
-    <section class="reimagined">
-        <h2>Sprunki Remastered Reimagined for Modern Players</h2>
-        <p>Sprunki Remastered represents a complete overhaul of the beloved
-            original game, bringing stunning visual improvements and refined
-            gameplay mechanics to a new generation of players. Built upon the
-            foundation of the popular Incredibox music creation platform, this
-            remastered version delivers an unparalleled interactive musical
-            experience.
-            Whether you're a returning fan or new to the world of Sprunki, you'll
-            discover a captivating blend of music creation, puzzle-solving, and
-            adventure that pushes the boundaries of what's possible in browser-
-            based gaming.</p>
-    </section>
+          <h1>Juega gratis a Fiddlebops en línea</h1>
+          <p>No lo dudes más, únete a Fiddlebops y comienza tu viaje musical exclusivo. Escribe tu propia composición musical con notas creativas.</p>
+          <button><a href="#f_games">Comenzar el juego</a></button>
+      </div>
+  </header>
 
-    <section class="features">
-        <h2>Sprunki Remastered Features</h2>
-        <div class="feature-grid">
-            <div class="feature-card">
-                <h3>Enhanced Graphics</h3>
-                <p>Experience the world of Sprunki like never before with completely redesigned
-                    characters, stunning animations, and dynamic expressions that respond to
-                    your every interaction. Our enhanced visual engine brings unprecedented detail
-                    and life to every scene.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Interactive Gameplay</h3>
-                 <p>Create unique musical compositions by interacting with a diverse cast of
-                    characters, each contributing their own distinct sounds and styles
-                    to your mix. The refined gameplay mechanics offer unprecedented control over
-                    your musical creation.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Multiple Game Modes</h3>
-                 <p>Switch between standard and nightmare modes to experience different sides
-                    of Sprunki. The nightmare mode introduces darker themes and challenging
-                    variations of familiar characters, perfect for players seeking an extra
-                    thrill.</p>
-            </div>
-            <div class="feature-card">
-                 <h3>Dynamic Environments</h3>
-                 <p>Explore vibrant, procedurally generated worlds that evolve with your
-                    music. Every playthrough offers a unique combination of visual and auditory
-                    elements, ensuring endless replayability.</p>
-            </div>
-        </div>
-    </section>
+  <section class="reimagined"><div class="container">
+      <h2>Fiddlebops, un juego de creación musical hecho por fans de Incredibox</h2>
+      <p>Fiddlebops se crea sobre la base de Incredibox y conserva su marco de juego principal, es decir, crea música personalizada asignando diferentes elementos musicales (como voces, sonidos de instrumentos, etc.) a personajes con diferentes características. Sin embargo, Fiddlebops también incorpora la creatividad y el diseño de los fans y puede mostrar diferentes características en cuanto a los materiales musicales, la configuración de personajes, el estilo de la interfaz, etc., en comparación con el Incredibox original, brindando a los jugadores una experiencia de creación musical diferente.</p>
+  </div>
+  </section>
 
-    <section class="experience">
-        <h2>Experience Sprunki Remastered</h2>
-        <p>Jump right into the adventure and start creating your own musical masterpiece</p>
-        <div class="placeholder">
-			<iframe 
-			src="https://silkycell.github.io/FiddleBops/" 
-			width="100%" 
-			height="500px" 
-			loading="lazy" 
-			fetchpriority="high">
-		  </iframe></div> <!-- Placeholder for video/image -->
-    </section>
+  <section class="features"><div class="container">
+      <h2>Guía del juego Fiddlebops</h2>
+      <div class="feature-grid">
+          <div class="feature-card">
+              <h3>Conoce las combinaciones de personajes y sonidos</h3>
+              <p>Comprende en profundidad el estilo musical único y las características sonoras correspondientes a cada personaje. Antes de crear, escucha el sonido de cada personaje y luego intenta activamente diferentes combinaciones de sonidos de personajes diferentes, observa el efecto de fusión y establece la base para la creación posterior.</p>
+          </div>
+          <div class="feature-card">
+              <h3>Domina las técnicas de creación musical</h3>
+              <p>Antes de crear, clarifica el tema y el estilo, y construye un marco rítmico sólido. Enriquece los cambios rítmicos ajustando las notas. Organiza adecuadamente el curso de la melodía, construye una melodía única a partir de una escala simple y presta atención a los altibajos de la melodía. Usa hábilmente los efectos de sonido y efectos especiales para agregar capas y atmósfera a la música.</p>
+          </div>
+          <div class="feature-card">
+              <h3>Utiliza hábilmente las funciones especiales del juego</h3>
+              <p>Cuando te atasques en la creación, utiliza la función aleatoria del juego para obtener inspiración. Puede generar aleatoriamente notas, ritmos o combinaciones de sonidos. Una vez que hayas terminado la creación, guarda tu obra a tiempo para su posterior mejora. Al mismo tiempo, compártela en la comunidad, comunícate con otros jugadores y absorbe sus sugerencias para mejorar tu nivel de creación.</p>
+          </div>
+          <div class="feature-card">
+              <h3>Sigue practicando e innovando</h3>
+              <p>Admira muchas obras excelentes de otros jugadores, absorbe ideas y técnicas de creación, y escucha ampliamente diferentes tipos de música para mejorar tu percepción y estética musical. Atrévete a romper las reglas, prueba nuevas combinaciones de sonidos, patrones rítmicos y direcciones melódicas, y sigue explorando e innovando para crear obras musicales únicas.</p>
+      </div></div>
+  </section>
 
-    <section class="how-to-play">
-        <h2>How to Play Sprunki Remastered</h2>
-        <p>Master the art of musical creation in three simple steps</p>
-        <div class="steps">
-            <div class="step">
-                <span class="step-number">1</span>
-                <h3>Choose Your Characters</h3>
-                <p>Select from a diverse roster of musical characters, each with their unique sounds
-                    and abilities. Mix and match to create your perfect ensemble.</p>
-            </div>
-            <div class="step">
-                <span class="step-number">2</span>
-                <h3>Create Your Beat</h3>
-                <p>Drag and drop sound icons onto your characters to build layered compositions.
-                    Experiment with different combinations to discover new musical possibilities.</p>
-            </div>
-            <div class="step">
-                <span class="step-number">3</span>
-                <h3>Share Your Music</h3>
-                <p>Save your creations and share them with the global Sprunki community. Listen to
-                    other players' compositions and gain inspiration for your next masterpiece.</p>
-            </div>
-        </div>
-    </section>
+  <section class="experience" id="f_games"><div class="container">
+      <h2>Experimenta Fiddlebops</h2>
+      <p>Embarca de inmediato en la creación y muestra tus propias obras maestras musicales.</p>
+      <div class="placeholder">
+          <iframe 
+          src="https://silkycell.github.io/FiddleBops/" 
+          width="100%" 
+          height="500px" 
+          loading="lazy" 
+          fetchpriority="high">
+          </iframe></div> <!-- Placeholder for video/image -->
+  </div>
+  </section>
 
-    <section class="testimonials">
-        <h2>Sprunki Remastered Player Testimonials</h2>
-         <div class="testimonial-grid">
-        <div class="testimonial-card">
-            <p>"Sprunki Remastered takes everything
-            I loved about the original and amplifies
-            it tenfold. The new graphics and
-            gameplay mechanics are simply
-            stunning."</p>
-            <p>- Alex M., Music Producer</p>
-        </div>
-        <div class="testimonial-card">
-            <p>"I've spent hours creating different
-            musical combinations and discovering
-            new sounds. This remaster is
-            absolutely addictive!"</p>
-            <p>- Sarah K., Game Developer</p>
-        </div>
-         <div class="testimonial-card">
-            <p>"The nightmare mode adds a whole
-            new dimension to the game. It's like
-            getting two games in one. Absolutely
-            worth every minute spent playing."</p>
-             <p>- Michael R., Music Teacher</p>
-        </div>
-        </div>
-    </section>
+  <section class="how-to-play"><div class="container">
+      <h2>¿Cómo jugar a Fiddlebops?</h2>
+      <p>Puedes dominar la creación de música única en solo tres simples pasos.</p>
+      <div class="steps">
+          <div class="step">
+              <span class="step-number">1</span>
+              <h3>Selecciona una canción y familiarízate con las operaciones</h3>
+              <p>Comienza el juego seleccionando una canción de la biblioteca de canciones con un estilo jazz ofrecido por el juego. Normalmente, antes de comenzar el juego, hay un tutorial simple que presenta los métodos básicos de operación, como hacer clic, deslizar, mantener presionado, etc., para seguir el ritmo musical.</p>
+          </div>
+          <div class="step">
+              <span class="step-number">2</span>
+              <h3>Crea música</h3>
+              <p>Usa los instrumentos y efectos de sonido desbloqueados para mezclar las pistas existentes o crear obras musicales completamente nuevas mediante arrastrar, combinar, etc. Muestra tu creatividad y crea un estilo musical único.</p>
+          </div>
+          <div class="step">
+              <span class="step-number">3</span>
+              <h3>Comparte y desafía</h3>
+              <p>Algunas versiones permiten compartir las obras musicales creadas con otros jugadores, o participar en diversos desafíos y concursos dentro del juego, competir con otros jugadores y medirte en la tabla de clasificación.</p>
+      </div></div>
+  </section>
 
-    <section class="faq">
-        <h2>Sprunki Remastered FAQs</h2>
-         <div class="faq-items">
-        <div class="faq-item">
-            <div class="faq-question">
-                <p>What makes Sprunki Remastered different from the original?</p>
-                <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-               <p>The Sprunki Remastered provides enhanced graphics and interactive gameplay.</p>
-            </div>
-        </div>
+  <section class="testimonials"><div class="container">
+      <h2>Reseñas de los jugadores de Fiddlebops</h2>
+      <div class="testimonial-grid">
+          <div class="testimonial-card">
+              <p>"Excelente experiencia musical: el diseño de las notas y el ritmo está estrechamente vinculado, y los jugadores pueden sentir plenamente el encanto de la música durante el juego, como si estuvieran en un festín de música jazz."</p>
+              <p>- Tom G., Productor musical</p>
+          </div>
+          <div class="testimonial-card">
+              <p>"La forma de jugar es relativamente simple, incluso los jugadores principiantes sin experiencia en juegos musicales pueden familiarizarse con las operaciones del juego en poco tiempo y disfrutar del juego rápidamente."</p>
+              <p>- Hay K., Desarrollador de juegos</p>
+          </div>
+          <div class="testimonial-card">
+              <p>"El juego proporciona una variedad de instrumentos, patrones rítmicos y efectos de sonido para que los jugadores los desbloqueen y los usen. Los jugadores pueden mostrar su creatividad y crear obras musicales completamente nuevas mediante arrastrar, combinar, etc."</p>
+              <p>- Tony k., Profesor de música</p>
+      </div>
+      </div></div>
+  </section>
 
-         <div class="faq-item">
-            <div class="faq-question">
-                <p>Do I need any musical experience to play?</p>
-                <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>No musical experience needed to play this game.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <div class="faq-question">
-                <p>Can I save and share my creations?</p>
-                 <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>Yes, you can save and share your music creations.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-             <div class="faq-question">
-                <p>What are the system requirements?</p>
-                <span class="toggle-icon">+</span>
-             </div>
-             <div class="faq-answer">
-                <p>The game can run on most modern browsers.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <div class="faq-question">
-               <p>Is there a tutorial for new players?</p>
-               <span class="toggle-icon">+</span>
-             </div>
-            <div class="faq-answer">
-                <p>Yes, there is a tutorial for new players.</p>
-             </div>
-        </div>
-         <div class="faq-item">
-            <div class="faq-question">
-               <p>How often does the game receive updates?</p>
-                <span class="toggle-icon">+</span>
-             </div>
-             <div class="faq-answer">
-                 <p>The game receives regular updates.</p>
-             </div>
-        </div>
-
-        <div class="faq-item">
-            <div class="faq-question">
-              <p>What is the Nightmare Mode and how do I unlock it?</p>
-              <span class="toggle-icon">+</span>
-            </div>
-             <div class="faq-answer">
-                <p>The nightmare mode is a more challenging mode.</p>
-            </div>
-        </div>
+  <section class="faq"><div class="container">
+      <h2>Preguntas frecuentes sobre Fiddlebops</h2>
+      <div class="faq-items">
           <div class="faq-item">
-            <div class="faq-question">
-                <p>Are there any in-game purchases or subscriptions?</p>
-                <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                 <p>There are no in-game purchases or subscription.</p>
-            </div>
-        </div>
+              <div class="faq-question">
+                  <p>¿Cuál es la diferencia entre Fiddlebops e Incredibox?</p>
+                  <span class="toggle-icon">+</span>
+              </div>
+              <div class="faq-answer">
+                  <p>Fiddlebops puede diferir de Incredibox en términos de materiales musicales, configuración de personajes, estilo de interfaz, etc.</p>
+              </div>
+          </div>
 
-         <div class="faq-item">
-            <div class="faq-question">
-                <p>Can I play Sprunki Remastered offline?</p>
-                 <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                 <p>The game can be played offline.</p>
-             </div>
-         </div>
-         <div class="faq-item">
-            <div class="faq-question">
-              <p>Is there a way to collaborate with other players?</p>
+          <div class="faq-item">
+              <div class="faq-question">
+                  <p>¿Necesito alguna experiencia musical para tocar?</p>
+                  <span class="toggle-icon">+</span>
+              </div>
+              <div class="faq-answer">
+                  <p>No se necesita ninguna experiencia musical para jugar este juego.</p>
+              </div>
+          </div>
+
+          <div class="faq-item">
+              <div class="faq-question">
+                  <p>¿Puedo guardar y compartir mis obras?</p>
+                  <span class="toggle-icon">+</span>
+              </div>
+          <div class="faq-answer">
+              <p>Sí, puedes guardar y compartir tus creaciones musicales.</p>
+          </div>
+      </div>
+
+      <div class="faq-item">
+          <div class="faq-question">
+              <p>¿Cuáles son los requisitos del sistema?</p>
               <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>There is no way to collaborate with other players.</p>
-            </div>
-        </div>
-    </div>
-    </section>
+          </div>
+          <div class="faq-answer">
+              <p>Este juego puede ejecutarse en la mayoría de los navegadores modernos.</p>
+          </div>
+      </div>
 
-    <section class="latest-updates">
-        <h2>Sprunki Remastered Latest Updates</h2>
-            <div class="update-grid">
-        <div class="update-card">
-            <h3>October 25, 2024</h3>
-            <h4>New Character Pack Released</h4>
-             <p>Introducing five new musical characters with unique sound profiles and
-                animations. Explore new musical possibilities with our latest additions to
-                the Sprunki universe.</p>
-        </div>
-          <div class="update-card">
-            <h3>October 15, 2024</h3>
-            <h4>Enhanced Performance Update</h4>
-             <p>Major optimization improvements for smoother gameplay and faster loading
-                times. Experience Sprunki Remastered with better performance than ever before.</p>
-        </div>
-          <div class="update-card">
-             <h3>October 1, 2024</h3>
-             <h4>Nightmare Mode Expansion</h4>
-              <p>The nightmare mode gets even more intense with new challenges, spooky
-                characters, and eerie sound effects. Are you brave enough to face the darkness?</p>
-        </div>
-        </div>
-    </section>
+      <div class="faq-item">
+          <div class="faq-question">
+              <p>¿Hay tutoriales para nuevos jugadores?</p>
+              <span class="toggle-icon">+</span>
+          </div>
+          <div class="faq-answer">
+              <p>Sí, hay tutoriales para nuevos jugadores.</p>
+          </div>
+      </div>
+  </div></div>
+  </section>
 
-    <section class="call-to-action">
-        <h2>Ready to Create Your Sprunki Remastered Musical Masterpiece?</h2>
-        <p>Join millions of players worldwide in the ultimate musical adventure. Start your journey with Sprunki Remastered today!</p>
-        <button>Play Sprunki Remastered Now</button>
-    </section>
+  <section class="call-to-action"><div class="container">
+      <h2>¿Estás listo para crear tu obra maestra musical de Fiddlebops?</h2>
+      <p>Embárcate en el viaje definitivo de creación musical con millones de jugadores de todo el mundo. ¡Comienza tu viaje de Fiddlebops ahora!</p>
+      <button><a href="#f_games">Juega ahora a Fiddlebops</a></button>
+  </div>
+  </section>
 
-    <footer>
-        <div class="footer-content">
-            <div class="about-links">
-                 <h4>About</h4>
-                  <ul>
-                   <li><a href="#">SprunkireMastered.org</a></li>
-                   <li><a href="#">Sprunkire Mastered</a></li>
-                   <li><a href="#">Sprunkire Mastered Online</a></li>
-                   <li><a href="#">Sprunkire Mastered Game</a></li>
-                 </ul>
-            </div>
-            <div class="legal-links">
-                <h4>Legal</h4>
-                  <ul>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Cookie Policy</a></li>
-                   <li><a href="#">GDPR Compliance</a></li>
-                 </ul>
-            </div>
-        </div>
-       <p>© 2024 Sprunki Remastered. All rights reserved.</p>
-    </footer>
-
+  <footer><div class="container">
+      <div class="footer-content">
+          <div class="about-links">
+              <h4>Acerca de</h4>
+              <ul>
+                  <li><a href="#">Fiddlebops.org</a></li>
+                  <li><a href="#">Juego Fiddlebops</a></li>
+                  <li><a href="#">Juego en línea Fiddlebops</a></li>
+                  <li><a href="#">Guía del juego Fiddlebops</a></li>
+              </ul>
+          </div>
+          <div class="legal-links">
+              <h4>Legal</h4>
+              <ul>
+                  <li><a href="#">Términos de servicio</a></li>
+                  <li><a href="#">Política de privacidad</a></li>
+                  <li><a href="#">Política de cookies</a></li>
+                  <li><a href="#">Cumplimiento de GDPR</a></li>
+              </ul>
+          </div>
+      </div>
+      <p>© 2025 Fiddlebops. Todos los derechos reservados.</p>
+  </div>
+  </footer>
 </body>
 </html>
